@@ -5,10 +5,10 @@ function App() {
   return (
     <div className="App">
       hiii
-      <Anurag/>
-      <Anurag/>
-      <Anurag/>
-      <Anurag/>
+      <Anurag name="roshi" city="kodad"/>
+      <Anurag name="harini" city="hyderabad"/>
+      <Anurag name="hasini" city="hyderabad"/>
+      <Anurag name="sai" city="kodad"/>
       <Anurag/>
     </div>
   );
