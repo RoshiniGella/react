@@ -1,0 +1,209 @@
+
+.eligible{
+    display:flex;
+    background: linear-gradient(253.92deg, rgb(255,255,255) -7.95%, rgb(227,231,250) 101.01% );
+    padding:48px 28px; 
+    height:400px;
+    align-items: center;
+}
+.img{
+    height:500px;
+    width:550px;
+}
+.green{
+    color:#77C476;
+}
+.p1, .p2{
+    color:#333;
+    font-size: 14px;
+    font: Inter, sans-serif;
+}
+.p3{
+    font: Inter, sans-serif;
+    font:14px;
+}
+.check{
+    background-color: #77C476;
+    color:#FFFFFF;
+    border:none;
+    border-radius: 20px;
+    height:40px;
+    width:150px;
+    font-weight: bold;
+}
+.loaneligible{
+    display:flex;
+    background-color: #5665B0;
+    padding:60px 40px 25px 100px;
+    align-items: center;
+    gap:50px;
+    margin-top: 60px;
+}
+.loan{
+    text-align: start;
+    width:50%;
+    color:#FFFFFF;
+    font-size: 14px;
+}
+.img1{
+    height:350px;
+    width:350px;
+}
+.heading{
+    font-size: 18px;
+    margin-bottom:15px;
+}
+.check1{
+    background-color: #77C476;
+    color:#FFFFFF;
+    border:none;
+    border-radius: 20px;
+    height:40px;
+    width:150px;
+    font-weight: bold;
+    margin-top:20px;
+}
+h3{
+    color:#77C476;
+}
+  h1{
+    font-size: 35px;
+    width:70%;
+    margin-bottom: 20px;
+  }
+  .para{
+    color:#333;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .contact{
+    display:flex;
+    
+  }
+  .form{
+    text-align: start;
+    align-items: center;
+    padding-left: 50px;
+    gap:15px;
+  }
+  .image{
+    width:500px;
+    height:500px;
+    margin-right: 80px;
+  }
+  form{
+    display:flex;
+    flex-direction: column;
+    width:300px;
+    appearance:none;
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: .375rem .75rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    width: 100%;
+    margin-left: 50px;
+  }
+  .first{
+    display:flex;
+    gap:15px;
+  }
+  .name-field {
+    display: flex;
+    flex-direction: column;
+  }
+  .first input {
+    width: 250px;  
+    height: 30px;  
+    padding: 8px; 
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: vertical;     
+  }
+  input{
+    width:520px;
+    height:30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: vertical;     
+  }
+  textarea {
+    width: 520px;         
+    height: 80px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: vertical;     
+  }
+  .formbtn{
+    background-color:#77C476;
+    color:#FFFFFF;
+    border:none;
+    border-radius: 20px;
+    height:40px;
+    width:100px;
+    font-weight: bold;
+    margin-top:20px;
+  }
+  .query{
+    margin-left: 50px;
+  }
+  .formbtn:hover{
+    background-color:#5665B0;
+  }
+  .FJ-container{
+    /* margin: 20px; */
+    width: 100%;
+    /* padding: 20px; */
+}
+.FJ{
+    margin: 45px;
+}
+.FJ h2{
+    text-align: left;
+    color: rgb(74, 182, 74);
+}
+.FJ h1 {
+    text-align: left;
+    font-size: 50px;
+    margin-top: 0px;
+    width: 71%;
+}
+.FJ h1 span{
+    color: rgb(74, 182, 74);
+}
+.FJ p{
+    text-align: left;
+    font-size: 18px;
+}
+.FJ-table{
+    width: 100%;
+}
+.FJ-table tr{
+    /* margin: 200px; */
+    /* padding: 200px; */
+    /* gap: 10px; */
+    height: 80px;
+}
+.FJ-table th{
+    width: 35%;
+    text-align: left;
+    color: rgb(80, 36, 254);
+    font-size: 22px;
+    /* margin: 30px; */
+    padding: 20px;
+}
+.FJ-table td{
+    text-align: left;
+    width: 70%;
+    color: rgb(63, 63, 63);
+    font-size: 17px;
+    
+} 
+.FJ-table hr{
+    width: 290%;
+}

@@ -1,0 +1,35 @@
+.dropdown-container{
+    margin: 100px;
+}
+.dropdown-container h1{
+    font-size: 50px;
+    margin: 20px;
+}
+.dropdown-container p{
+    font-size: 17px;
+}
+.accordion-button {
+    border: none;
+}
+.SQuestions .SQ-image{
+    width: 100px;
+    height: 100px;
+}
+.SQuestions h1{
+    text-align: center;
+    font-size: 10px;
+}
+.SQuestions  p{
+    text-align: center;
+    font-size: 17px;
+}
+.SQuestions button{
+    background-color: rgb(40, 132, 40);
+    color: white;
+    font-size: 17px;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    width: 150px;
+}

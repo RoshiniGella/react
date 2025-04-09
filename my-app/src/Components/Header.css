@@ -1,0 +1,78 @@
+.subscribe{
+    display:flex;
+    flex-direction: row;
+    background-color: #5665B0;
+    margin-top: 50px;
+    height:300px;
+    gap:100px;
+}
+.info{
+   padding:50px 0px 40px 40px;
+   color:#FFFFFF;
+}
+.image{
+    height:300px;
+    width:300px;
+    padding:40px;
+}
+.email{
+    width: 220px;  
+    height: 30px;  
+    padding: 8px; 
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    text-align:left;
+    color:#333333c6;  
+}
+.subs{
+    width: 100px;  
+    height: 30px;  
+    padding: 8px; 
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: vertical; 
+    color:white;
+    background-color: #77C476; 
+    border:none;
+    font-weight: bold;
+}
+.buttons{
+    display:flex;
+    gap:10px;
+}
+p{
+    font-size: 14px;
+    width:90%;
+}
+.accordation-container{
+    max-width: 700px;
+    margin:auto;
+}
+.accordation-btn{
+  width: 100%;
+  text-align: left;
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #e7f1ff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.accordion-btn:hover {
+  background-color: #d0e6ff;
+}
+.accordion-content {
+    display: none;
+    padding: 15px 20px;
+    background-color: #ffffff;
+    border-left: 3px solid #007bff;
+    border-right: 3px solid #007bff;
+    border-bottom: 3px solid #007bff;
+  }
+.accordion-item.active .accordion-content {
+    display: block;
+  }
