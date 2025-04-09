@@ -37,8 +37,11 @@ const Navbar = () => {
                     and secure their future. 
                     </p>
                     </div>
+                    <div class='btns'>
+                        <div><button className='App'>Apply For Loan</button></div>
+                        <div><button className='Ask'>Ask Expert</button></div>
+                    </div>
                 </div>
-
             </div>
         </>
     )
